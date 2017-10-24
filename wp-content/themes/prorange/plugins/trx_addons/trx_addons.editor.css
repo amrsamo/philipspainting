@@ -1,0 +1,108 @@
+/* Tooltips */
+.trx_addons_tooltip {
+	border-bottom-style: solid;
+}
+.trx_addons_tooltip:before {
+	font-size:1em;
+	line-height:1.3em;
+    letter-spacing: 0.6px;
+    padding: 0.24em 0.9em;
+	-webkit-transform:translateX(-50%);
+	    -ms-transform:translateX(-50%);
+	        transform:translateX(-50%);
+	-webkit-border-radius: 0 !important;
+	    -ms-border-radius: 0 !important;
+			border-radius: 0 !important;
+}
+.trx_addons_tooltip:after {
+	margin-bottom:-8px;
+	-webkit-transform:none;
+	    -ms-transform:none;
+	        transform:none;
+}
+
+
+/* Dropcaps */
+.trx_addons_dropcap {
+    font-family: Libre Baskerville,serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin: 0.2em 0.5em 0 0;
+    width: 1.86em;
+    height: 1.86em;
+    line-height: 1.97em;
+}
+
+/* Tiny text */
+.trx_addons_tiny_text {
+	letter-spacing:2px;
+}
+
+/* Lists */
+.trx_addons_list_parameters > li > strong,
+.trx_addons_list_parameters > li > em {
+	color:inherit;
+}
+.trx_addons_list_parameters > li > em {
+	font-family:inherit;
+}
+/* Lists */
+.trx_addons_list_parameters > li > strong,
+.trx_addons_list_parameters > li > em {
+    color:inherit;
+}
+.trx_addons_list_parameters > li > em {
+    font-family:inherit;
+}
+ul[class*="trx_addons_list_custom"] > li:before {
+    content: '\e83c';
+    font-family: fontello;
+    font-size: 0.429rem;
+    font-weight: 400;
+    left: -2em;
+}
+ol {
+    list-style: none;
+    counter-reset: num;
+}
+ol>li {
+    position: relative;
+    margin-bottom: 0.13rem;
+}
+ul[class*="trx_addons_list_success"] > li:before {
+    content: '\e949';
+    font-family: Fontello;
+}
+ol>li::before {
+    content: counter(num) '. ';
+    counter-increment: num;
+    position: absolute;
+    left: -1.5em;
+    font-family: Source Sans Pro,san-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+ul[class*="trx_addons_list"] > li:before{
+    font-size: 0.9em;
+    font-weight: 400;
+    left: -1.67em;
+    top: 0;
+}
+ul[class*="trx_addons_list_custom"] {
+    list-style-type: none;
+    padding-left: 1.1em;
+}
+ul>li {
+    margin-bottom: 0.13rem;
+}
+ul[class*="trx_addons_list_custom"] > li:before{
+    font-size: 1.5em;
+    left: -0.7em;
+    top: 0;
+}
+.sc_layouts_title_title{
+    font-family: Libre Baskerville,serif;
+    font-size: 3.75rem;
+    font-weight: 400;
+}
